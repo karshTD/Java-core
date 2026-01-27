@@ -21,6 +21,7 @@ The focus is on **core Java fundamentals**, **object-oriented programming**, **e
 
 ```
 java-core/
+├── flexi-lecture/
 ├── basics/
 ├── oop/
 ├── exceptions/
