@@ -7,13 +7,15 @@ abstract class Animal{
 
 class Dog extends Animal{
     void sound(){
-        system.out.println("dog barks");
+        
+        System.out.println("dog barks");
     }
 }
 
 public class AbstractMethodExample{
-    public static void main(String[] args)
+    public static void main(String[] args){
     Animal animal = new Dog();
     animal.sound();
     animal.eat();
+    }
 }
